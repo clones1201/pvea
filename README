@@ -1,0 +1,30 @@
+mpeg4analyzer
+
+based on Xvid Codec.
+
+it will analysis the MPEG-4 Visual bit stream, 
+then help me to approach the PVEA (Perceptual Video Encryption Algorithm) for MPEG 4.
+
+2012-8-28
+class mpeg4analyzer,
+add method NextStartCode(), stop at the byte after the next start code,return the start code type
+ 
+2012-8-31
+add method BitstreamGetBits() BitstreamShowBits() BitstreamSkip()
+start to deal with the visual stream. 
+
+2012-9-3
+now we are already being in video_packet_header().
+
+2012-9-26
+stuck in block()
+because of the copy code from Xvid, it does not look like C++ more and more now, and i don't know how to fix it...
+
+2012-9-27
+got a 'gmc' problem...Xvid use a point as a bool value...'nice' trick...
+
+2012-9-28
+i am quite sure that it's ok to analyse the I_VOP and P_VOP...
+
+2012-9-29
+the program has some serious Memory problem... i'll try to fix it after the National Holiday

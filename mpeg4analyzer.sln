@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpeg4analyzer", "mpeg4analyzer\mpeg4analyzer.vcxproj", "{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{D9C6E77D-EE68-422C-A454-730A5F01D89E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B} = {B44FBCC7-E1F2-4173-9E8C-4FD49680409B}
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6} = {28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lorenz", "lorenz\lorenz.vcxproj", "{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_BitstreamPutBits", "Test_BitstreamPutBits\Test_BitstreamPutBits.vcxproj", "{38BDF4DF-498B-4559-AE22-59E18D88E637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCBC0C53-22E6-448B-BD4D-77924C1BA91E}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		mpeg4analyzer.vsmdi = mpeg4analyzer.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = mpeg4analyzer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Decrypt|Win32 = Decrypt|Win32
+		Encrypt|Win32 = Encrypt|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Debug|Win32.Build.0 = Debug|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Decrypt|Win32.ActiveCfg = Decrypt|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Decrypt|Win32.Build.0 = Decrypt|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Encrypt|Win32.ActiveCfg = Encrypt|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Encrypt|Win32.Build.0 = Encrypt|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Release|Win32.ActiveCfg = Release|Win32
+		{28FC14D8-C6A1-4638-A268-3BE7CFDDC7B6}.Release|Win32.Build.0 = Release|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Debug|Win32.Build.0 = Debug|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Decrypt|Win32.ActiveCfg = Decrypt|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Decrypt|Win32.Build.0 = Decrypt|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Encrypt|Win32.ActiveCfg = Encrypt|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Encrypt|Win32.Build.0 = Encrypt|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Release|Win32.ActiveCfg = Release|Win32
+		{D9C6E77D-EE68-422C-A454-730A5F01D89E}.Release|Win32.Build.0 = Release|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Debug|Win32.Build.0 = Debug|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Decrypt|Win32.ActiveCfg = Decrypt|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Decrypt|Win32.Build.0 = Decrypt|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Encrypt|Win32.ActiveCfg = Encrypt|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Encrypt|Win32.Build.0 = Encrypt|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Release|Win32.ActiveCfg = Release|Win32
+		{B44FBCC7-E1F2-4173-9E8C-4FD49680409B}.Release|Win32.Build.0 = Release|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Debug|Win32.Build.0 = Debug|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Decrypt|Win32.ActiveCfg = Decrypt|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Decrypt|Win32.Build.0 = Decrypt|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Encrypt|Win32.ActiveCfg = Encrypt|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Encrypt|Win32.Build.0 = Encrypt|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Release|Win32.ActiveCfg = Release|Win32
+		{38BDF4DF-498B-4559-AE22-59E18D88E637}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
