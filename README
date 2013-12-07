@@ -1,9 +1,11 @@
-mpeg4analyzer
+PVEA --Perceptible Video Encrypt Algorithm
+=
+#mpeg4analyzer
 
-based on Xvid Codec.
+**based on Xvid Codec.**
 
 it will analysis the MPEG-4 Visual bit stream, 
-then help me to approach the PVEA (Perceptual Video Encryption Algorithm) for MPEG 4.
+and locate the 8x8 DCT block. 
 
 2012-8-28
 class mpeg4analyzer,
@@ -28,3 +30,9 @@ i am quite sure that it's ok to analyse the I_VOP and P_VOP...
 
 2012-9-29
 the program has some serious Memory problem... i'll try to fix it after the National Holiday
+
+#Lorenz
+
+a stream cipher generator
+
+based on Lorenz system.
